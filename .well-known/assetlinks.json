@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "dev.k2wanko.examples.fido2",
+      "sha256_cert_fingerprints": [
+        "0C:02:EA:F4:09:3D:F3:DF:92:65:7C:88:29:D9:BB:F1:B7:28:E9:72:64:98:9A:CC:5B:A0:DB:42:BC:8C:A8:A4"
+      ]
+    }
+  }
+]
