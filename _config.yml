@@ -5,6 +5,7 @@ plugins:
   - jekyll-octicons
   - jekyll-github-metadata
 
+  
 permalink: /:year/:month/:day/:title/
 
 defaults:
@@ -14,6 +15,9 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+include: 
+  - ".well-known"
 
 topics:
   - name: Web
