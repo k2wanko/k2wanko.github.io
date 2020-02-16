@@ -6,7 +6,7 @@ plugins:
   - jekyll-github-metadata
 
   
-# permalink: /:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
 
 defaults:
   -
@@ -16,9 +16,8 @@ defaults:
     values:
       layout: "post"
 
-include: 
-  - ".well-known/assetlinks.json"
-permalink: /.well-known/assetlinks.json
+include: [".well-known"]
+# permalink: /.well-known/assetlinks.json
 
 topics:
   - name: Web
